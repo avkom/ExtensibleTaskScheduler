@@ -4,6 +4,6 @@
     {
         object GetContextFromParentThread();
         object EnterChildThread(object contextFromParentTread);
-        object ExitChildThread(object contextFromParentThread, object contextFromChildThread);
+        void ExitChildThread(object contextFromParentThread, object contextFromChildThread);
     }
 }
